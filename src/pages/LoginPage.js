@@ -1,9 +1,5 @@
-function LoginPage() {
-  return (
-    <div>
-      <p> This is our login page </p>
-    </div>
-  );
-}
+import LoginItem from "../components/LoginItem";
 
-export default LoginPage;
+export default function LoginPage() {
+  return <LoginItem />;
+}

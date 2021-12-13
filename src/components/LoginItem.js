@@ -1,9 +1,25 @@
-function HomePage() {
+export default function loginItem() {
   return (
     <div>
-      <p> This is our home page </p>
+      <form>
+        <p>Login here:</p>
+        <p>
+          <label>
+            Email:
+            <input type="text" name="name" />
+          </label>
+        </p>
+        <b />
+        <p>
+          <label>
+            Password:
+            <input></input>
+          </label>
+        </p>
+        <p>
+          <input type="submit" value="Submit" />
+        </p>
+      </form>
     </div>
   );
 }
-
-export default HomePage;
